@@ -1,0 +1,11 @@
+POST http://localhost:8081/api/appointments
+Content-Type: application/json
+
+{
+  "name": "Test Customer",
+  "phone": "9000000000",
+  "category": "Spa & Wellness",
+  "service": "Hydra Glow Facial",
+  "appointmentDate": "2026-09-16",
+  "appointmentTime": "18:30"
+}
